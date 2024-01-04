@@ -1,0 +1,12 @@
+{
+  "packageManager": "yarn@4.0.2",
+  "type": "module",
+  "devDependencies": {
+    "create-esm-loader": "^0.2.5",
+    "esbuild": "^0.19.11"
+  },
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node esbuild.config.js"
+  }
+}
